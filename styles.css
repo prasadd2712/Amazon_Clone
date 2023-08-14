@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    border:border-box;
+    font-family:Arial;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    /* hovering border with solid  */
+    border: 1.5px solid white;
+}
+
+/* deliver to wala box */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left:  15px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-second{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+
+/* search ans select box */
+p
