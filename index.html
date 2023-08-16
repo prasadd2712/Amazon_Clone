@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="nav-logo border">
+        <div class="nav-logo border ">
             <div class="logo"></div>
         </div>
 
@@ -24,11 +24,32 @@
         </div>
 
         <div class="nav-search">
-            <select name="List" id="List">
-                <option value="baby"> Baby</option>
-                <option value="Mens">Mens</option>
-                <option value="Female">Female</option>
+            <select class="search-select" name="All" id="">
+                <option value="">All</option>
             </select>
+            <input class="search-input" placeholder="Search Amazon" type="text">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <!-- <div  class="select-country">
+            <select name="" id="">
+                <option value="">EN</option>
+            </select>
+        </div> -->
+        <div class="nav-signin border ">
+            <p><span>Hello,sign in</span></p>
+            <p class="nav-second">Accounts & Lists</p>
+        </div>
+
+        <div class="nav-return border  ">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+        </div>
+
+        <div class="nav-cart">
+            <i class="fa-regular fa-cart-shopping"></i>
+            Cart
         </div>
     </div>
     
