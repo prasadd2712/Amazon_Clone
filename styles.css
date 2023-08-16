@@ -110,3 +110,28 @@ span{
     
 }
 
+/* Styling the panel */
+.panel{
+    height: 39px;
+    display: flex;
+    background-color: #232f3e;
+    color: #f3f3f3;
+    /* for vertical centering of y to -y axis */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options p {
+    display: inline-block;   
+    margin-left: 15px;
+    /* display: flex; */
+}
+.panel-options{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.panel-deals{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+
